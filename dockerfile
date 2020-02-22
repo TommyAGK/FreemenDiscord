@@ -6,4 +6,4 @@ ADD .env /root/
 
 RUN pip3 install -r /root/requirements.txt
 
-CMD [ "python", "./freemen.py" ]
+CMD [ "python", "/root/freemen.py" ]
