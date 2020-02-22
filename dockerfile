@@ -1,7 +1,8 @@
-FROM python:3
+FROM python:latest
 
-ADD freemen.py
-ADD requirements.txt
+ADD freemen.py /root/
+ADD requirements.txt /root/
+ADD .env /root/
 
 RUN pip3 install -r requirements.txt
 
